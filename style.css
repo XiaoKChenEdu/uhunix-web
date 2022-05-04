@@ -60,9 +60,15 @@ nav .fontNav::before, #projectDropdownBTN::before {
 
 }
 
-nav .fontNav:hover::before, #projectDropdownBTN:hover::before {
+nav .fontNav:hover::before {
 
     width: 100% ;
+
+}
+
+#projectDropdownBTN:hover::before {
+
+    width: 95% ; 
 
 }
 
