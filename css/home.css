@@ -7,14 +7,14 @@
 
     font-size: 100px ;
     font-family: 'Blokee' ;
-    display: flex;
-    justify-content: center;
+    display: flex ;
+    justify-content: center ;
     align-items: center ;
     min-height: 70vh ;
 
 }
 
-@keyframes mover {
+@keyframes fadeIn {
 
     0% {
 
@@ -25,7 +25,6 @@
     50% {
 
         text-shadow: 0 0 30px black ;
-        transform: translateY(30px);
 
     }
 
@@ -39,7 +38,7 @@
 
 span {
 
-    animation: mover 6s linear infinite ;
+    animation: fadeIn linear 6s infinite ;
     display: inline-block ;
     color: white ;
 
@@ -48,6 +47,7 @@ span {
 span:nth-child( 1 ) {
 
     animation-delay: 0.5s ;
+    
 
 }
 

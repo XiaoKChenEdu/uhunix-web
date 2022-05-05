@@ -1,11 +1,17 @@
 @font-face {
-    font-family: 'Blokee';
+    font-family: 'Blokee' ;
     src: url( ../fonts/Blokee-axJx9.ttf ) format( 'truetype' ) ;
+}
+
+@font-face {
+    font-family: 'Matiz' ;
+    src: url( ../fonts/Matiz.ttf ) format( 'truetype' ) ;
 }
 
 .topNav {
 
-    font-family: 'Blokee' ;
+    background-color: white ;
+    font-family: 'Matiz' ;
     padding-top: 15px ;
     padding-bottom: 20px ;
 
@@ -15,7 +21,7 @@ nav ul {
 
     list-style: none ;
     padding: 0 ;
-    width: 700px ;
+    width: 800px ;
     margin: 0 auto ;
     list-style: none ;
 
@@ -78,7 +84,6 @@ nav .fontNav:hover::before {
     outline: none ;
     color: #444 ;
     background-color: white ;
-    text-decoration: none ;
     text-transform: uppercase ;
     font-family:  inherit ;
     font-size: 40px ;
@@ -90,6 +95,13 @@ nav .fontNav:hover::before {
     position: absolute ;
     display: none ;
     color: #444 ;
+    background-color: white ;
+    text-align: center;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+
 
 }
 
@@ -97,12 +109,11 @@ nav .fontNav:hover::before {
 
     float: none ;
     color: #444 ;
-    padding: 25px 25px ;
+    margin: 0%;
     text-decoration: none ;
     display: block ;
-    text-align: left ;
+    text-align: center ;
     font-size: 25px;
-    text-transform: uppercase ;
 
 }
 
