@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Blokee';
+    src: url( ../fonts/Blokee-axJx9.ttf ) format( 'truetype' ) ;
+}
+
+.helloWorld {
+
+    font-size: 100px ;
+    font-family: 'Blokee' ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    min-height: 70vh ;
+
+}
+
+@keyframes mover {
+
+    0% {
+
+        text-shadow: 0 0 30px white ;
+
+    }
+
+    50% {
+
+        text-shadow: 0 0 30px black ;
+        transform: translateY(30px);
+
+    }
+
+    100% {
+
+        text-shadow: 0 0 30px white ;
+
+    }
+
+}
+
+span {
+
+    animation: mover 6s linear infinite ;
+    display: inline-block ;
+    color: white ;
+
+}
+
+span:nth-child( 1 ) {
+
+    animation-delay: 0.5s ;
+
+}
+
+span:nth-child( 2 ) {
+
+    animation-delay: 1.0s ;
+
+}
+
+span:nth-child( 3 ) {
+
+    animation-delay: 1.5s ;
+
+}
+
+span:nth-child( 4 ) {
+
+    animation-delay: 2.0s ;
+
+}
+
+span:nth-child( 5 ) {
+
+    animation-delay: 2.5s ;
+
+}
+
+span:nth-child( 6 ) {
+
+    animation-delay: 3.0s ;
+
+}
+
+span:nth-child( 7 ) {
+
+    animation-delay: 0.5s ;
+
+}
+
+span:nth-child( 8 ) {
+
+    animation-delay: 1.0s ;
+
+}
+
+span:nth-child( 9 ) {
+
+    animation-delay: 1.5s ;
+
+}
+
+span:nth-child( 10 ) {
+
+    animation-delay: 2.0s ;
+
+}
+
+span:nth-child( 11 ) {
+
+    animation-delay: 2.5s ;
+
+}

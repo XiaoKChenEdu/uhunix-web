@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Blokee';
-    src: url( fonts/Blokee-axJx9.ttf ) format( 'truetype' ) ;
+    src: url( ../fonts/Blokee-axJx9.ttf ) format( 'truetype' ) ;
 }
 
 .topNav {
