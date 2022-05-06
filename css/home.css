@@ -22,15 +22,9 @@
 
     }
 
-    50% {
-
-        text-shadow: 0 0 30px black ;
-
-    }
-
     100% {
 
-        text-shadow: 0 0 30px white ;
+        text-shadow: 0 0 30px black ;
 
     }
 
@@ -38,7 +32,9 @@
 
 span {
 
-    animation: fadeIn linear 6s infinite ;
+    animation: fadeIn linear 6s ;
+    animation-iteration-count: 1 ;
+    animation-fill-mode: forwards ;
     display: inline-block ;
     color: white ;
 
