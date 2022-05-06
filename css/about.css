@@ -11,8 +11,21 @@ h1 {
 
 }
 
-.github-school {
+
+.contact-info {
+    
+    display: flex ;
+    
+}
+
+#github-school, #gitlab-school, #email-school {
 
     border-radius: 50% ;
 
+}
+
+#github-school:hover, #gitlab-school:hover, #email-school:hover {
+    
+    opacity: .5 ;
+    
 }
