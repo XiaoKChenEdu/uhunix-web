@@ -5,6 +5,7 @@
 
 }
 
+
 h1 {
 
     font-family: 'Matiz' ;
@@ -12,10 +13,10 @@ h1 {
 }
 
 
-.contact-info {
-    
+.contact-info, .contact-info-link {
+
     display: flex ;
-    
+
 }
 
 #github-school, #gitlab-school, #email-school {
@@ -43,12 +44,6 @@ h1 {
 
     text-indent: 5%;
     font-size: 20px;
-
-}
-
-.contact-info {
-
-    margin-left: 40px ;
 
 }
 
