@@ -6,11 +6,11 @@
 .helloWorld {
 
     font-size: 100px ;
-    font-family: 'Blokee' ;
+    font-family: 'Blokee', monospace ;
     display: flex ;
     justify-content: center ;
     align-items: center ;
-    min-height: 70vh ;
+    min-height: 90vh ;
 
 }
 
